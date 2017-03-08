@@ -1,0 +1,3 @@
+[submodule "Submodule/WSProgressHUD"]
+	path = Submodule/WSProgressHUD
+	url = git@github.com:devSC/WSProgressHUD.git
