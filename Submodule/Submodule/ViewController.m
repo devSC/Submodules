@@ -24,6 +24,8 @@
     [StaticLibrary hello];
     StaticViewController *staticvc = [[StaticViewController alloc] init];
     [self.navigationController pushViewController:staticvc animated:YES];
+    
+    
 }
 
 
