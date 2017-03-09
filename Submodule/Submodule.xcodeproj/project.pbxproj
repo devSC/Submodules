@@ -416,6 +416,7 @@
 				C8A0D2361E6FEC7000E14055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8A0D2371E6FEC7000E14055 /* Build configuration list for PBXNativeTarget "SubmoduleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				C8A0D2391E6FEC7000E14055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D6AF4FF603772B51CA523D7839F7ACA76DAD78A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "853BA74916DA66344B2FAECA47195F483A3D7661" : 9223372036854775807,
+    "D6AF4FF603772B51CA523D7839F7ACA76DAD78A8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7CBDE716-6B76-48ED-996E-74B4DA44AFB6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "853BA74916DA66344B2FAECA47195F483A3D7661" : "Submodules\/Submodule\/WSProgressHUD\/",
+    "D6AF4FF603772B51CA523D7839F7ACA76DAD78A8" : "Submodules\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Submodules",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Submodule\/Submodules.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:devSC\/WSProgressHUD.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "853BA74916DA66344B2FAECA47195F483A3D7661"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:devSC\/Submodules.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D6AF4FF603772B51CA523D7839F7ACA76DAD78A8"
+    }
+  ]
+}
