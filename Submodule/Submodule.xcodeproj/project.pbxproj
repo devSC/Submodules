@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C81E55801E71060100539C77 /* libStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C81E557D1E7105CC00539C77 /* libStaticLibrary.a */; };
 		C8A0D2171E6FEC7000E14055 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0D2161E6FEC7000E14055 /* main.m */; };
 		C8A0D21A1E6FEC7000E14055 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0D2191E6FEC7000E14055 /* AppDelegate.m */; };
 		C8A0D21D1E6FEC7000E14055 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A0D21C1E6FEC7000E14055 /* ViewController.m */; };
@@ -17,6 +18,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C81E557A1E7105CC00539C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C81E55751E7105CC00539C77 /* StaticLibraryDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8A0D2641E7006F900E14055;
+			remoteInfo = StaticLibraryDemo;
+		};
+		C81E557C1E7105CC00539C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C81E55751E7105CC00539C77 /* StaticLibraryDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8A0D2901E70071100E14055;
+			remoteInfo = StaticLibrary;
+		};
+		C81E557E1E7105F700539C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C81E55751E7105CC00539C77 /* StaticLibraryDemo.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A0D28F1E70071100E14055;
+			remoteInfo = StaticLibrary;
+		};
 		C8A0D22C1E6FEC7000E14055 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C8A0D20A1E6FEC7000E14055 /* Project object */;
@@ -27,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C81E55751E7105CC00539C77 /* StaticLibraryDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = StaticLibraryDemo.xcodeproj; path = StaticLibraryDemo/StaticLibraryDemo/StaticLibraryDemo.xcodeproj; sourceTree = SOURCE_ROOT; };
 		C8A0D2121E6FEC7000E14055 /* Submodule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Submodule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A0D2161E6FEC7000E14055 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8A0D2181E6FEC7000E14055 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C81E55801E71060100539C77 /* libStaticLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C81E55761E7105CC00539C77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C81E557B1E7105CC00539C77 /* StaticLibraryDemo.app */,
+				C81E557D1E7105CC00539C77 /* libStaticLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C8A0D2091E6FEC7000E14055 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +114,7 @@
 		C8A0D2141E6FEC7000E14055 /* Submodule */ = {
 			isa = PBXGroup;
 			children = (
+				C81E55751E7105CC00539C77 /* StaticLibraryDemo.xcodeproj */,
 				C8A0D2181E6FEC7000E14055 /* AppDelegate.h */,
 				C8A0D2191E6FEC7000E14055 /* AppDelegate.m */,
 				C8A0D21B1E6FEC7000E14055 /* ViewController.h */,
@@ -125,6 +159,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C81E557F1E7105F700539C77 /* PBXTargetDependency */,
 			);
 			name = Submodule;
 			productName = Submodule;
@@ -182,6 +217,12 @@
 			mainGroup = C8A0D2091E6FEC7000E14055;
 			productRefGroup = C8A0D2131E6FEC7000E14055 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C81E55761E7105CC00539C77 /* Products */;
+					ProjectRef = C81E55751E7105CC00539C77 /* StaticLibraryDemo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C8A0D2111E6FEC7000E14055 /* Submodule */,
@@ -189,6 +230,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C81E557B1E7105CC00539C77 /* StaticLibraryDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = StaticLibraryDemo.app;
+			remoteRef = C81E557A1E7105CC00539C77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C81E557D1E7105CC00539C77 /* libStaticLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStaticLibrary.a;
+			remoteRef = C81E557C1E7105CC00539C77 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C8A0D2101E6FEC7000E14055 /* Resources */ = {
@@ -232,6 +290,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C81E557F1E7105F700539C77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StaticLibrary;
+			targetProxy = C81E557E1E7105F700539C77 /* PBXContainerItemProxy */;
+		};
 		C8A0D22D1E6FEC7000E14055 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C8A0D2111E6FEC7000E14055 /* Submodule */;
@@ -354,8 +417,10 @@
 				DEVELOPMENT_TEAM = B8AN3R9Z2W;
 				INFOPLIST_FILE = Submodule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/StaticLibraryDemo/StaticLibraryDemo/StaticLibrary\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wilson.Submodule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/StaticLibraryDemo/StaticLibraryDemo/StaticLibrary\"";
 			};
 			name = Debug;
 		};
@@ -366,8 +431,10 @@
 				DEVELOPMENT_TEAM = B8AN3R9Z2W;
 				INFOPLIST_FILE = Submodule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/StaticLibraryDemo/StaticLibraryDemo/StaticLibrary\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wilson.Submodule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/StaticLibraryDemo/StaticLibraryDemo/StaticLibrary\"";
 			};
 			name = Release;
 		};
