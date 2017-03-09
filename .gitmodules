@@ -1,0 +1,3 @@
+[submodule "Submodule/StaticLibraryDemo"]
+	path = Submodule/StaticLibraryDemo
+	url = git@github.com:devSC/StaticLibraryDemo.git
